@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/M_Linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="147dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:background="@drawable/f_m_background"
+            tools:layout_editor_absoluteY="8dp">
+
+            <EditText
+                android:id="@+id/Mat_A_i00"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i10"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i01"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Mat_A_i01"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i11"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i02"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i00"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Mat_A_i02"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i12"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i03"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i01"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Mat_A_i03"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i13"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i04"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i02"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Mat_A_i04"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i03"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Mat_A_i10"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i20"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i00" />
+
+            <EditText
+                android:id="@+id/Mat_A_i11"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i21"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i12"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i10"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i01" />
+
+            <EditText
+                android:id="@+id/Mat_A_i12"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i22"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i13"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i11"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i02" />
+
+            <EditText
+                android:id="@+id/Mat_A_i13"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i23"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i14"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i12"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i03" />
+
+            <EditText
+                android:id="@+id/Mat_A_i14"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i13"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i04" />
+
+            <EditText
+                android:id="@+id/Mat_A_i20"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i30"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i21"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i10" />
+
+            <EditText
+                android:id="@+id/Mat_A_i21"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i31"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i22"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i20"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i11" />
+
+            <EditText
+                android:id="@+id/Mat_A_i22"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i32"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i23"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i21"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i12" />
+
+            <EditText
+                android:id="@+id/Mat_A_i23"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i33"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i24"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i22"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i13" />
+
+            <EditText
+                android:id="@+id/Mat_A_i24"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i34"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i23"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i14" />
+
+            <EditText
+                android:id="@+id/Mat_A_i30"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i40"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i31"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i20" />
+
+            <EditText
+                android:id="@+id/Mat_A_i31"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i41"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i32"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i30"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i21" />
+
+            <EditText
+                android:id="@+id/Mat_A_i32"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i42"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i33"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i31"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i22" />
+
+            <EditText
+                android:id="@+id/Mat_A_i33"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i43"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i34"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i32"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i23" />
+
+            <EditText
+                android:id="@+id/Mat_A_i34"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i44"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i33"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i24" />
+
+            <EditText
+                android:id="@+id/Mat_A_i40"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i41"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i30" />
+
+            <EditText
+                android:id="@+id/Mat_A_i41"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i42"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i40"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i31" />
+
+            <EditText
+                android:id="@+id/Mat_A_i42"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i43"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i41"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i32" />
+
+            <EditText
+                android:id="@+id/Mat_A_i43"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i44"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i42"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i33" />
+
+            <EditText
+                android:id="@+id/Mat_A_i44"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_A_i43"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_A_i34" />
+
+            <ImageButton
+                android:id="@+id/Mat_1_Column_sum"
+                android:layout_width="@dimen/_43sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/m_button"
+                android:src="@drawable/sum3"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i03"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_1_Column_TextView"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="#FB2C2C" />
+
+            <TextView
+                android:id="@+id/Mat_1_Column_TextView"
+                android:layout_width="58dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="#D62424"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i02"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_1_Column_sum"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/Mat_1_Column_minus"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/Mat_1_Column_minus"
+                android:layout_width="@dimen/_43sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/matrix_bu_minus"
+                android:src="@drawable/minus"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_A_i01"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_1_Column_TextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="#FB2C2C" />
+
+            <ImageButton
+                android:id="@+id/Mat_1_Row_minus"
+                android:layout_width="@dimen/_43sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/matrix_bu_minus"
+                android:src="@drawable/minus"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_1_Row_TextView"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i00"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:tint="#FB2C2C" />
+
+            <ImageButton
+                android:id="@+id/Mat_1_Row_sum"
+                android:layout_width="@dimen/_43sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/m_button"
+                android:src="@drawable/sum3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i30"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_1_Row_TextView"
+                app:tint="#FB2C2C" />
+
+            <TextView
+                android:id="@+id/Mat_1_Row_TextView"
+                android:layout_width="32dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="31dp"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="#D62424"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_1_Row_sum"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_A_i10"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_1_Row_minus"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="39dp"
+                android:layout_marginRight="39dp"
+                android:layout_marginBottom="8dp"
+                android:text="Matrix: A"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_1_Row_minus"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_1_Column_minus"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/f_m_background">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="41dp"
+                android:layout_marginRight="41dp"
+                android:layout_marginBottom="8dp"
+                android:text="Matrix: B"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_2_Row_minus"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_2_Column_minus"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Mat_B_i00"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i10"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i01"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Mat_B_i01"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i11"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i02"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i00"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Mat_B_i02"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i12"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i03"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i01"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Mat_B_i03"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i13"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i04"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i02"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Mat_B_i04"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i03"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Mat_B_i10"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i20"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i00" />
+
+            <EditText
+                android:id="@+id/Mat_B_i11"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i21"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i12"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i10"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i01" />
+
+            <EditText
+                android:id="@+id/Mat_B_i12"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i22"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i13"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i11"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i02" />
+
+            <EditText
+                android:id="@+id/Mat_B_i13"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i23"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i14"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i12"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i03" />
+
+            <EditText
+                android:id="@+id/Mat_B_i14"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i13"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i04" />
+
+            <EditText
+                android:id="@+id/Mat_B_i20"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i30"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i21"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i10" />
+
+            <EditText
+                android:id="@+id/Mat_B_i21"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i31"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i22"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i20"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i11" />
+
+            <EditText
+                android:id="@+id/Mat_B_i22"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i32"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i23"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i21"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i12" />
+
+            <EditText
+                android:id="@+id/Mat_B_i23"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i33"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i24"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i22"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i13" />
+
+            <EditText
+                android:id="@+id/Mat_B_i24"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i34"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i23"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i14" />
+
+            <EditText
+                android:id="@+id/Mat_B_i30"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i40"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i31"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i20" />
+
+            <EditText
+                android:id="@+id/Mat_B_i31"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i41"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i32"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i30"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i21" />
+
+            <EditText
+                android:id="@+id/Mat_B_i32"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i42"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i33"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i31"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i22" />
+
+            <EditText
+                android:id="@+id/Mat_B_i33"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i43"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i34"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i32"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i23" />
+
+            <EditText
+                android:id="@+id/Mat_B_i34"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i44"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i33"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i24" />
+
+            <EditText
+                android:id="@+id/Mat_B_i40"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i41"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i30" />
+
+            <EditText
+                android:id="@+id/Mat_B_i41"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i42"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i40"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i31" />
+
+            <EditText
+                android:id="@+id/Mat_B_i42"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i43"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i41"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i32" />
+
+            <EditText
+                android:id="@+id/Mat_B_i43"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i44"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i42"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i33" />
+
+            <EditText
+                android:id="@+id/Mat_B_i44"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/matrix_edittext"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_B_i43"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_B_i34" />
+
+
+            <ImageButton
+                android:id="@+id/Mat_2_Column_sum"
+                android:layout_width="@dimen/_43sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/m_button"
+                android:src="@drawable/sum3"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i03"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Mat_2_Column_TextView"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="#FB2C2C" />
+
+            <TextView
+                android:id="@+id/Mat_2_Column_TextView"
+                android:layout_width="58dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="#D62424"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i02"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_2_Column_sum"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/Mat_2_Column_minus"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/Mat_2_Column_minus"
+                android:layout_width="@dimen/_43sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/matrix_bu_minus"
+                android:src="@drawable/minus"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_B_i01"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_2_Column_TextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="#FB2C2C" />
+
+            <ImageButton
+                android:id="@+id/Mat_2_Row_minus"
+                android:layout_width="@dimen/_43sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/matrix_bu_minus"
+                android:src="@drawable/minus"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_2_Row_TextView"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i00"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:tint="#FB2C2C" />
+
+            <ImageButton
+                android:id="@+id/Mat_2_Row_sum"
+                android:layout_width="@dimen/_43sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/m_button"
+                android:src="@drawable/sum3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i30"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_2_Row_TextView"
+                app:tint="#FB2C2C" />
+
+            <TextView
+                android:id="@+id/Mat_2_Row_TextView"
+                android:layout_width="32dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="31dp"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="#D62424"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/Mat_2_Row_sum"
+                app:layout_constraintEnd_toStartOf="@+id/Mat_B_i10"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Mat_2_Row_minus"
+                app:layout_constraintVertical_bias="1.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Key_Lieanr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/app_background"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_37sdp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="20dp">
+
+                <Button
+                    android:id="@+id/Button_Sum"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/button"
+                    android:text="Sum"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/Button_Subtract"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/button"
+                    android:text="Subtrct"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/Button_Multiply"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="multiply"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/Button_Dividing"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="Dividing"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/Button_Invers_A"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="Invers [A]"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/Button_Invers_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="Invers [B]"
+                    android:textColor="#000000"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/Button_Transpose_A"
+                    android:layout_width="104dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="Transpose [A]"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/Button_Transpose_B"
+                    android:layout_width="104dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="Transpose [B]"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/Button_Adjoint_A"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="Adjoint [A]"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/Button_Adjoint_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="Adjoint [B]"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/Button_Determinant_A"
+                    android:layout_width="115dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="Determinant [A]"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/Button_Determinant_B"
+                    android:layout_width="115dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="Determinant [B]"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_1"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="1"
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_2"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="2"
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_3"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="3"
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_4"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="4"
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_5"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="5"
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_6"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="6"
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_7"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="7"
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_8"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="8"
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_9"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="9"
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_Minus"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="-"
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_0"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/KeyBoard_Key_Dot"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/button"
+                        android:text="."
+                        android:textColor="#000000"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageButton
+                        android:id="@+id/KeyBoard_Clear_B"
+                        android:layout_width="@dimen/_48sdp"
+                        android:layout_height="@dimen/_31sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        android:src="@drawable/clear_b"
+                        app:tint="#000000" />
+
+                    <ImageButton
+                        android:id="@+id/KeyBoard_Clear_A"
+                        android:layout_width="@dimen/_48sdp"
+                        android:layout_height="@dimen/_31sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        android:src="@drawable/clear_a"
+                        app:tint="#000000" />
+
+                    <ImageButton
+                        android:id="@+id/KeyBoard_backspace"
+                        android:layout_width="@dimen/_48sdp"
+                        android:layout_height="@dimen/_31sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        android:src="@drawable/delete2"
+                        app:tint="#000000" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:paddingTop="9dp">
+
+
+                    <ImageButton
+                        android:id="@+id/KeyBoard_Cursor_Laft"
+                        android:layout_width="@dimen/_48sdp"
+                        android:layout_height="@dimen/_31sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        android:src="@drawable/icons8doubleright25l"
+                        app:tint="#000000" />
+
+                    <ImageButton
+                        android:id="@+id/KeyBoard_Move_Up"
+                        android:layout_width="@dimen/_48sdp"
+                        android:layout_height="@dimen/_31sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        android:src="@drawable/top"
+                        app:tint="#000000" />
+
+                    <ImageButton
+                        android:id="@+id/KeyBoard_Cursor_Right"
+                        android:layout_width="@dimen/_48sdp"
+                        android:layout_height="@dimen/_31sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        android:src="@drawable/icons8doubleright25"
+                        app:tint="#000000" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp">
+
+
+                    <ImageButton
+                        android:id="@+id/KeyBoard_Move_Left"
+                        android:layout_width="@dimen/_48sdp"
+                        android:layout_height="@dimen/_31sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        android:src="@drawable/left"
+                        app:tint="#000000" />
+
+                    <ImageButton
+                        android:id="@+id/KeyBoard_Move_Down"
+                        android:layout_width="@dimen/_48sdp"
+                        android:layout_height="@dimen/_31sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        android:src="@drawable/down"
+                        app:tint="#000000" />
+
+                    <ImageButton
+                        android:id="@+id/KeyBoard_Move_Right"
+                        android:layout_width="@dimen/_48sdp"
+                        android:layout_height="@dimen/_31sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        android:src="@drawable/right"
+                        app:tint="#000000" />
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
